@@ -7,7 +7,7 @@ Application Next.js autonome (aucun lien avec un autre projet).
 ## Stack technique
 
 - [Next.js 16](https://nextjs.org) (App Router, Server Actions, Turbopack)
-- [Prisma](https://www.prisma.io) + SQLite
+- [Prisma](https://www.prisma.io) + PostgreSQL (Neon)
 - [Tailwind CSS 4](https://tailwindcss.com)
 - [Framer Motion](https://motion.dev) pour les animations
 - PWA installable (manifest, service worker, icônes propres à `/xamxam`)
@@ -17,8 +17,8 @@ Application Next.js autonome (aucun lien avec un autre projet).
 
 ```bash
 npm install
-cp .env.example .env      # puis générez un AUTH_SECRET (voir ci-dessous)
-npx prisma migrate dev --name init   # crée la base SQLite et applique le schéma
+cp .env.example .env      # renseignez DATABASE_URL/DATABASE_URL_UNPOOLED (Neon) et un AUTH_SECRET
+npx prisma migrate dev --name init   # applique le schéma sur la base Postgres
 npm run db:seed           # crée l'administrateur + des données de démonstration
 npm run generate-icons    # (optionnel, déjà fait) régénère les icônes PWA
 npm run dev
