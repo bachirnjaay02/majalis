@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+.mj-ambient {
+  background-image: radial-gradient(circle at 15% -10%, rgba(201, 151, 58, 0.28), transparent 45%),
+    radial-gradient(circle at 90% 10%, rgba(201, 151, 58, 0.16), transparent 55%),
+    linear-gradient(180deg, #fdfaf2 0%, #f7efdc 45%, #f0e3c4 100%);
+}
+
+.dark .mj-ambient {
+  background-image: radial-gradient(circle at 15% -10%, rgba(201, 151, 58, 0.2), transparent 45%),
+    radial-gradient(circle at 90% 10%, rgba(23, 21, 18, 0.6), transparent 55%),
+    linear-gradient(180deg, #171512 0%, #0c0c0a 40%, #030302 100%);
+}

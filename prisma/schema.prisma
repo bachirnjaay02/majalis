@@ -1,0 +1,88 @@
+// Schema Prisma - Xam Xam
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------------------------------------------------------
+// Xam Xam — bibliothèque numérique de Serigne Touba Cheikh Ahmadou Bamba
+// (livres, playlists, vidéos, wirds).
+// ---------------------------------------------------------------------------
+
+enum XamXamLanguage {
+  WOLOF
+  FRANCAIS
+  ARABE
+}
+
+model XamXamAdmin {
+  id        String   @id @default(cuid())
+  name      String
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
+}
+
+model XamXamBook {
+  id          String         @id @default(cuid())
+  title       String
+  author      String         @default("Serigne Touba Cheikh Ahmadou Bamba")
+  language    XamXamLanguage
+  category    String?
+  description String?
+  coverUrl    String?
+  pdfUrl      String
+  featured    Boolean        @default(false)
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+}
+
+model XamXamPlaylist {
+  id          String        @id @default(cuid())
+  title       String
+  description String?
+  coverUrl    String?
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+  tracks      XamXamTrack[]
+}
+
+model XamXamTrack {
+  id         String   @id @default(cuid())
+  title      String
+  reciter    String?
+  audioUrl   String
+  duration   String?
+  order      Int      @default(0)
+  playlistId String
+  createdAt  DateTime @default(now())
+
+  playlist XamXamPlaylist @relation(fields: [playlistId], references: [id], onDelete: Cascade)
+}
+
+model XamXamVideo {
+  id           String   @id @default(cuid())
+  title        String
+  description  String?
+  videoUrl     String
+  thumbnailUrl String?
+  category     String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+model XamXamWird {
+  id        String         @id @default(cuid())
+  title     String
+  moment    String?
+  language  XamXamLanguage
+  content   String
+  audioUrl  String?
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+}
+
