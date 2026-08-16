@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { prisma } from "@/lib/prisma";
 import type { XamXamLanguage } from "@prisma/client";
 import WirdCard from "@/components/xamxam/WirdCard";
@@ -50,6 +51,25 @@ export default async function WirdsPage({
           Les wirds transmis par Serigne Touba, à réciter selon les moments
           indiqués.
         </p>
+      </AnimatedSection>
+
+      <AnimatedSection delay={0.05}>
+        <Link
+          href="/xamxam/wirds/mahfuz"
+          className="mt-8 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-[#f3d27a]/25 bg-gradient-to-r from-[#f3d27a]/15 to-[#c9973a]/10 px-5 py-4 transition-colors hover:border-[#f3d27a]/50"
+        >
+          <span>
+            <span className="font-[family-name:var(--font-xamxam-display)] text-lg font-semibold text-[#241d14] dark:text-[#f3e9d2]">
+              Wird Mahfuz — الورد المحفوظ
+            </span>
+            <span className="mt-0.5 block text-sm text-[#241d14]/60 dark:text-[#f3e9d2]/60">
+              Les trois versions complètes (Al Xafiif, Al Kaamil, Al Xaatam), en arabe avec translittération.
+            </span>
+          </span>
+          <span className="shrink-0 rounded-full bg-gradient-to-r from-[#f3d27a] to-[#c9973a] px-4 py-2 text-sm font-semibold text-[#241d14]">
+            Découvrir →
+          </span>
+        </Link>
       </AnimatedSection>
 
       <div className="mt-8">

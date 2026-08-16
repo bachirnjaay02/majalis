@@ -1,0 +1,588 @@
+{
+  "al-xafiif": {
+    "name": "Al Xafiif",
+    "nameArabic": "الخفيف",
+    "items": [
+      {
+        "id": "0",
+        "arabic": "اللَّهُمَّ بِحَقِّ وَجْهِ اللَّهِ تَعَالَي الكَرِيمِ هَبْ لِكُلِّ مَنْ عَمِلَ بِهَذَا الوِرْدِ مَا يَغْبِطُهُ بِهِ غَيْرُهُ فِي الدُّنْيَا وَالْآخِرَةِ، وَصَلِّ وَسَلَّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَتَقَبَّلْ هَذَا الْوِرْدَ مِنْ مُخْرِجِهِ بِقَدْرِ عَظَمَةِ ذَاتِكَ آمِينْ يَا رَبَّ الْعَالَمِينَ",
+        "transliteration": "Allaa humma bi haqi wajhil laahi tahanlal kariim heub li kulli man hamila bi haazal wirdi maa yaghbituhu bihi ghayruhu fii dunyaa wal aahirati, wa salli wa sallim wa baarik hanlaa sayyidinaa Muhammadin wa aalihi wa sahbihi wa taqabbal heuzal wird min muhrijihi biqadri hazamati zaatika aamiin yaa rabbal hanlamiin",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "1",
+        "arabic": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+        "transliteration": "A-oû'zou bil-laahi minach-chaytaanir-radjiimi",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "2",
+        "arabic": "وَإِنِّي أُعِيدُهَا بِكَ وَذُرِّيَّتَهَا مِنَ الشَّيْطَانِ الرَّجِيمِ",
+        "transliteration": "Wa-inniaya ou-îzouhaa bika wa zouriyatahaa minach-chaytaanir-radjiimi",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "3",
+        "arabic": "رَبِّ أَعُوذُ بِكَ مِنْ هَمَزَاتِ الشَّيَاطِينِ وَأَعُوذُ بِكَ رَبِّ أَنْ يَحْضُرُونِ",
+        "transliteration": "Rabbi a-oû'zou bika min hamazâtich_chayatiini wa a-oû'zou bika rabbi an yahdourou'ni",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "4",
+        "arabic": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+        "transliteration": "A-oû'zou bikalimaatil-lahi attaamaati mine charri maa khalakha",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "3"
+      },
+      {
+        "id": "5",
+        "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
+        "transliteration": "Bismil_laahir_rahmaanir_rahiimi",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "6",
+        "arabic": "بِسْمِ اللهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+        "transliteration": "Bismil_lahil_lazii laa yadour_rou mahasmihii chay-oune fiil_ardi walaa fiis_samaa_i wa houwas samii_oûl haliime",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "3"
+      },
+      {
+        "id": "7",
+        "arabic": "بِسْمِ اللَّهِ مَا شَاءَ اللهُ لا يَسُوقُ الْخَيْرَ إِلَّا اللهُ بِسْمِ اللَّهِ مَا شَاءَ اللهُ لَا يَصْرِفُ السُّوءَ إِلَّا اللَّهُ، بِسْمِ اللَّهِ مَا شَاءَ اللَّهُ وَمَا بِكُمْ مِنْ نِعْمَةٍ فَمِنَ اللهِ، بِسْمِ اللهِ مَا شَاءَ اللَّهُ لَا قُوَّةَ إِلَّا بِاللَّهِ",
+        "transliteration": "Bismil_lahi maa chaa_al _ laahou laa yassou'khoul khayra il_lal_lahou Bismil_lahi maa chaa_al_laahou laa yassrifous_sou'a il_lal_lahou Bismil_lahi maa chaa_al_laahou wa maa bikoum mine nihmatine faminal_laahi Bismil_lahi maa chaa_al_laahou laa khouw_wata il_laa bil_laahi",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "3"
+      },
+      {
+        "id": "8",
+        "arabic": "بِسْمِ اللَّهِ ذِي الشَّأْنِ عَظِيمِ الْبُرْهَانِ شَدِيدِ السُّلْطَانِ، مَا شَاءَ اللهُ كَانَ، أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ",
+        "transliteration": "Bismil_lahi ziis chahni haziimil bourhaani chadiidis-soultaani maachaa_al_laahou kaana a-oû'zou bil-laahi minach-chaytaane.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "3"
+      },
+      {
+        "id": "9",
+        "arabic": "اللَّهُ لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ لَا تَاخُذُهُ سِنَةٌ وَلَا نَوْمٌ لَّهُ مَا فِي السَّمَوَاتِ وَمَا فِي الْأَرْضِ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ وَلَا يَئُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+        "transliteration": "Al-laahou laa ilaaha il_laa houwal hay-youl khayyou'mou laa taakhouzouhou' sinatoune walaa nawmoune lahou' maa fis-samaawaati wamaa fil-ardi mane zal-lazii yachefa-oû hindahou il_laa bi-iznihii yahlamou maa bayna aydiihime wamaa khafahoume walaayouhiitou'na bi chay-ine mine hilmihi il_laa bimaa chaa-a wassi-ha koursiyouhous-samawaati wal arda walaa ya-ou douhou' hifzouhoumaa wa houwal haliy-youl hazime",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "10",
+        "arabic": "لَقَدْ جَاءَكُمْ رَسُولٌ مِنَ انْفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُمْ حَرِيصٌ عَلَيْكُمْ بِالْمُؤْمِنِينَ رَؤُفٌ رَّحِيمٌ فَإِن تَوَلَّوْا فَقُلْ حَسْبِيَ اللهُ لَا إِلَهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ",
+        "transliteration": "Lakhade djaa-akoume rasou'loune mine anfousikoume haziizoune halayhi maa ha-nittoume hariisoune halaykoume bil mouminiina ra-ou'foune rahiimoune fa-ine tawalaw fakhoul hasbiyal_laahou laa i-laaha il_laa houwa halayhi tawakkaltou wa houwa rabboul harchil haziime",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "11",
+        "arabic": "إِنَّ وَلِيِّيَ اللَّهُ الَّذِي نَزَّلَ الْكِتَابَ وَهُوَ يَتَوَلَّى الصَّالِحِينَ",
+        "transliteration": "In-na waliyiyal_laahoul_lazii nazzalal kitaaba wa houwa yatawal-las-saalihiina",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "12",
+        "arabic": "وَأَفَوِّضُ أَمْرِيَ إِلَى اللَّهِ إِنَّ اللَّهَ بَصِيرٌ بِالْعِبَادِ",
+        "transliteration": "wa oufaw-widou ameriya ilale laahi in-nal laaha basiiroune bile hibaadi",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "13",
+        "arabic": "حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ",
+        "transliteration": "hasbiyal_laahou laa i-laaha il_laa houwa halayhi tawakkaltou wa houwa rabboul harchil haziime",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "70"
+      },
+      {
+        "id": "14",
+        "arabic": "أَسْتَغْفِرُ اللهَ الْعَظِيمَ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْحَيَّ الْقَيُّومَ",
+        "transliteration": "astakhe firoul_laahal haziimal_lazii laa ilaaha il_la houwal hay-yal khay-youma",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "70"
+      },
+      {
+        "id": "15",
+        "arabic": "لا إِلَهَ إِلَّا اللَّهُ سَيِّدُنَا مُحَمَّدٌ رَسُولُ اللَّهِ عَلَيْهِ بِآلِهِ وَصَحْبِهِ صَلَاةُ اللَّهِ تَبَارَكَ وَتَعَالَى وَسَلَامُ اللَّهِ",
+        "transliteration": "laa ilaaha il-lal-laahou Sayidinaa mouhammadoun rassou'loul-laahi halayhi bi-aalihii wa sahbihii salaatoul-laahi tabaaraka wa tahalaa wa salaamoul-laahi",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "50"
+      },
+      {
+        "id": "16",
+        "arabic": "اللَّهُمَّ صَلَّ عَلَى سَيِّدِنَا مُحَمَّدٍ الْفَاتِحِ لِمَا أُغْلِقَ وَالْخَاتِمِ لِمَا سَبَقَ نَاصِرِ الْحَقِّ بِالْحَقِّ وَالْهَادِي إِلَى صِرَاطِكَ الْمُسْتَقِيمٍ وَعَلَى آلِهِ حَقَّ قَدْرِهِ وَمِقْدَارِهِ الْعَظِيمِ",
+        "transliteration": "al-laahoum-ma sal-li halaa sayidinaa mouham-madinil faatihi limaa ukhlikha wal khaatimi limaa sabakha naasiril hakhi bile hakhi wal haadii ilaa siraatikal moustakhima wa halaa aalihii hakha khadrihii wa mikhdaarihil hazime",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "100"
+      },
+      {
+        "id": "17",
+        "arabic": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لاَ شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ وَهُوَ حَيٍّ لَا يَمُوتُ بِيَدِهِ الْخَيْرُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+        "transliteration": "laa ilaaha il-lal-laahou wahdahou laa chariika lahou' lahoul moulkou wa lahoul hamdou youhyii wa youmiitou wa houwa hay-youne laa yamou'tou bi yadihil khayrou wa houwa halaa koul-li chay ine khadiiroune",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "10"
+      },
+      {
+        "id": "18",
+        "arabic": "اللَّهُمَّ صَلَّ وَسَلَّمْ وَبَارِكْ عَلَى سَيِّدِنَا وَمَوْلاَنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ صَلَاةً وَسَلَامًا وَبَرَكَةً تَهَبُ لِي بِهَا سَعَادَةً لَا شَقَاوَةَ بَعْدَهَا ، وَأَكْبَرَ رِضًا مِنْكَ لَا سُخْطَ بَعْدَهُ أَبَدًا",
+        "transliteration": "al-laahoum-ma sal-li wa sal-lim wa barik halaa sayidina wa mawlaanaa mouham-madine wa halaa aalihii wa sahbihii salaatane wa salaamane wa barakatane tahoubou lii bihaa sa-ha'datane la chakhaawata bahdahaa wa akbara ridane mineka la soukhta bahdahou abadane",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "19",
+        "arabic": "يَا كَرِيمُ يَا جَمِيلُ يَا وَدُودُ يَا رَبَّ الْعَالَمِينَ يَا بَاقِي يَا وَلِيُّ يَا لَطِيفُ يَا كَرِيمُ يَا نَافِعُ يَا نَافِعُ يَا أَحَدُ يَا رَبَّ الْعَالَمِينَ يَا أَحَدُ يَا لَطِيفُ يَا بَاقِي يَا لَطِيفُ يَا أَحَدُ يَا دَائِمُ يَا خَالِقَ الدُّنْيَا وَالْآخِرَةِ وَمَالِكَ الدُّنْيَا وَالْآخِرَةِ وَمَا فِيهِمَا",
+        "transliteration": "Yaa kariimou yaa Djamiilou Yaa Woudou'dou yaa Rabal haalamina Yaa Baakhii Yaa Waliyyou Yaa Latiifou Yaa Kariimou Yaa Naafi-oû Yaa Naafi-oû Yaa Ahadou Yaa Rabbal haalamiina Yaa Ahadou Yaa Latiifou Yaa Baakhii Yaa Latiifou Yaa Ahadou Yaa Daa-imou Yaa khalikhad douneyaa wal aakhirati wa maalikad douneyaa wal aakhirati wa maa fiihima",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "20",
+        "arabic": "وَبَشِّرِ الَّذِينَ ءامَنُوا وَعَمِلُوا الصَّالِحَاتِ أَنَّ لَهُمْ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا الْأَنْهَارُ كُلَّمَا رُزِقُوا مِنْهَا مِنْ ثَمَرَةٍ رِزْقًا قَالُوا هَذَا الَّذِي رُزِقْنَا مِنْ قَبْلُ وَأَتُوا بِهِ مُتَشَابِهًا وَلَهُمْ فِيهَا أَزْوَجٌ مُطَهَّرَةٌ وَهُمْ فِيهَا خَالِدُونَ",
+        "transliteration": "wa bachiril_laziina aamanou' wa hamilous saalihaati anna lahoume djan-naatine tadjrii mine tahtihal anhaarou koul-lamaa rouzikhou minehaa mine samaratine rizekhane khaalou'haazal lazii rouzikhnaa mine khablou wa outou' bihii moutachaabihane wa lahoume fiihaa azwadjoune moutaharatoune wa houme fiihaa khaalidou'na",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "21",
+        "arabic": "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+        "transliteration": "Soubhaana Rabbika rabbil hizzati ham-maa yasifou'na wa salaamoune halal moursaliina wal hamdou lil-laahi Rabbil halamiine",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "22",
+        "arabic": "اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَهَبْ لِمَنْ أَوْصَلَ هَذَا الْوِرْدَ الْمُبَارَكَ إِلَى الْمُسْلِمِينَ وَالْمُسْلِمَاتِ مِنْكَ بِوَاسِطَةِ رَسُولِكَ عَلَيْهِ وَآلِهِ وَصَحْبِهِ الصَّلَاةُ وَالسَّلَامُ مَا اخْتَرْتَ لَهُ فِي الدُّنْيَا وَالْآخِرَةِ بِلَا آفَةٍ وَلَا كَدَرٍ بَيْنَهُ وَبَيْنَ أَحَدٍ فِي شَيْءٍ مَا أَبَدًا آمِينَ يَا رَبَّ الْعَالَمِينَ.",
+        "transliteration": "Allāhumma ṣalli wa-sallim wa-bārik 'alā sayyidinā wa-mawlanā Muḥammadin wa-ālihi wa-ṣaḥbihi, wa-hab li-man awṣala hādhā l-wirda l-mubāraka ilā l-muslimīna wa-l-muslimāti minka bi-wāsiṭati rasūlika 'alayhi wa-ālihi wa-ṣaḥbihi ṣ-ṣalātu wa-s-salāmu mā ddakharta lahu fī d-dunyā wa-l-ākhirati bi-lā āfatin wa-lā kadarin baynahu wa-bayna aḥadin fī shay'in mā abadan. Āmīn yā Rabba l-'ālamīn.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      }
+    ]
+  },
+  "al-xaatam": {
+    "name": "Al Xaatam",
+    "nameArabic": "الخاتم",
+    "items": [
+      {
+        "id": "0",
+        "arabic": "اللَّهُمَّ بِحَقِّ وَجْهِ اللَّهِ تَعَالَي الكَرِيمِ هَبْ لِكُلِّ مَنْ عَمِلَ بِهَذَا الوِرْدِ مَا يَغْبِطُهُ بِهِ غَيْرُهُ فِي الدُّنْيَا وَالْآخِرَةِ، وَصَلِّ وَسَلَّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَتَقَبَّلْ هَذَا الْوِرْدَ مِنْ مُخْرِجِهِ بِقَدْرِ عَظَمَةِ ذَاتِكَ آمِينْ يَا رَبَّ الْعَالَمِينَ",
+        "transliteration": "Allaa humma bi haqi wajhil laahi tahanlal kariim heub li kulli man hamila bi haazal wirdi maa yaghbituhu bihi ghayruhu fii dunyaa wal aahirati, wa salli wa sallim wa baarik hanlaa sayyidinaa Muhammadin wa aalihi wa sahbihi wa taqabbal heuzal wird min muhrijihi biqadri hazamati zaatika aamiin yaa rabbal hanlamiin",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "1",
+        "arabic": "أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ",
+        "transliteration": "Ahuuzu biallahi minash shayțānir rajiimi",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "2",
+        "arabic": "وَإِنِّي أُعِيدُهَا بِكَ وَذُرِّيَّتَهَا مِنَ الشَّيْطَانِ الرَّجِيمِ",
+        "transliteration": "Wa Innī ya uhiizuhā bika wa zurrīyatahā mina-sh shayţāni-r rajīmi",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "3",
+        "arabic": "رَبِّ أَعُوذُ بِكَ مِنْ هَمَزَاتِ الشَّيَاطِينِ وَأَعُوذُ بِكَ رَبِّ أَن يَحْضُرُون",
+        "transliteration": "Rabbi ahuuzu bika min heumazaatish shayaatiini, wa ahuuzu bika rabbi an yahduruun",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "4",
+        "arabic": "اللهُمَّ بِحَقِّ وَجْهِ اللهِ تَعَالَى الْكَرِيمِ الَّذِي أَذْهَبَ الثَّلَاثَةَ وَالثَّلَاثِينَ إِلَى غَيْرِ صَاحِبِ هَذَا الْوِرْدِ الْمُبَارَكِ وَإِلَى غَيْرِ مَا اخْتِيرَ لَهُ بِلَا تَوْجِيهِ شَيْءٍ مِنْهَا إِلَيْهِ وَإِلَى مَا اخْتِيرَ لَهُ أَبَدًا صَلَّ وَسَلَّمْ وَبَارِكْ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ، وَاجْعَلْ هَذَا الْوِرْدَ الْمُبَارَكَ حِصْنًا حَصِينًا عَنْ جَمِيعِ أَعْدَائِكَ، وَسِتْرًا مَانِعًا مِنْ جَمِيعِ الْمَفَاسِدِ، وَفَرَجًا لِجَمِيعِ الْمُسْلِمِينَ وَالْمُسْلِمَاتِ، آمِينَ يَا رَبَّ الْعَالَمِينَ",
+        "transliteration": "Allaa humma bihaqi wajhil laahi tahaalal kariimi, al'lazi azhabas salaasata was salaasiina ilaa ghayri saahibi haazal wirdil mubaaraki, wa'iilaa ghayri makhtiira lahu, bilaa tawjiihi shay'inne minhaa ilayhi, wa ilaa makhtiira lahu abadane, salli wa sallim wa baarik halaa sayyidinaa wa mawlaana muhamadine, wa aalihii wa sahbihii, wajhal haazal wirdal mubaaraka hisnane hasiinane hane jamiihi ahdaa'ika, wa sitrane maa'nihane min jamiihil mafaasidi, wa farajane li jamiihil muslimiina wal muslimaati, aamiin ya rab'al haalamiina.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "5",
+        "arabic": "أَعُوذُ بِكَلِمَاتِ اللهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+        "transliteration": "Ahuuzu bikalimaatil laahit-taam'maati min sharri maa khalakha.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "3"
+      },
+      {
+        "id": "6",
+        "arabic": "بِسْمِ اللهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٍ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+        "transliteration": "Bismillâhil-lazii la yadurru mahas-mihii shay'une fil-ardi walaa fis-samaa'i wa huwas-samii hul haliimu.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "3"
+      },
+      {
+        "id": "7",
+        "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ الْحَمْدُ لِلهِ رَبِّ الْعَالَمِينَ الرَّحْمَنِ الرَّحِيمِ مَلِكَ يَوْمِ الدِّينِ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+        "transliteration": "Bismil laahi-r rahmaani-r rahiimi. Al-Ĥamdu Lillāhi Rabbi Al-`Ālamīna, Ar-Rahmāni Ar-Rahīmi, Maliki Yawmid Dīni, Iyyaaka Nahbudu Wa Iyyaaka Nastahiinu, Ihdinas siraatal mustaqīma, siraatal laziina anhamta halayhim ghayril maghduubi halayhim Wa Lad-daal'liina.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "8",
+        "arabic": "لَقَدْ جَاءَكُمْ رَسُولٌ مِّنَ أَنفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُّمْ حَرِيصٌ عَلَيْكُم بِالْمُؤْمِنِينَ رَءُوفٌ رَّحِيمٌ فَإِن تَوَلَّوْا فَقُلْ حَسْبِيَ اللَّهُ لَا إِلَهَ إِلا هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ",
+        "transliteration": "Lakhad jaa'akum rasuulun min anfusikum haziizun halayhi maa hanittum hariisune halaykum bil-muuminiina ra'uufun rahiimun, fa'in tawallaw faqul hasbiyal laahu laa ilaaha illaa huwa halayhi tawakkaltu wa huwa rabbul harshil haziimi.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "60"
+      },
+      {
+        "id": "9",
+        "arabic": "أَعُوذُ بِاللهِ مِنَ الشَّيْطَانِ الرَّحِيمِ إِن كَانَتِ إِلا صَيْحَةً وَاحِدَةً فَإِذَا هُمْ خَامِدُونَ",
+        "transliteration": "Ahuuzu biallahi minash shayţānir rajiimi. In Kaanat illaa sayhatane waahidatane fa izaa hum khaamiduuna.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "10",
+        "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ الَّذِينَ كَفَرُوا وَصَدُّوا عَن سَبِيلِ اللَّهِ أَضَلَّ أَعْمَالَهُمْ وَالَّذِينَ ءَامَنُوا وَعَمِلُوا الصَّالِحَاتِ وَءَامَنُواْ بِمَا نُزِّلَ عَلَى مُحَمَّدٍ وَهُوَ الْحَقُّ مِن رَّبِّهِمْ كَفَّرَ عَنْهُمْ سَيِّئَاتِهِمْ وَأَصْلَحَ بَالَهُمْ",
+        "transliteration": "Bismil laahi-r rahmaani-r rahiimi. Al-laziina kafaruu wa sad'duu han sabiilil laahi adalla ahmaalahum, wal laziina aamanuu wa hamilus saalihaati, wa aamanuu bimaa nuzzila halaa muhammadine, wa huwal haqqu min rabbihim kaffara hanhum sayyi'aatihim, wa aslaha baalahum.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "11",
+        "arabic": "أعوذ بالله من الشيطان الرجيم سَيُهْزَمُ الْجَمْعُ وَيُوَلُّونَ الدُّبُرَ",
+        "transliteration": "Ahuuzu biallahi minash shayţānir rajiimi, Sayuhzamul jamhu, wa yuwal'luunad dubura.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "3"
+      },
+      {
+        "id": "12",
+        "arabic": "أعوذ بالله من الشيطان الرجيم فَلَا أُقْسِمُ بِمَوَاقِعِ النُّجُومِ وَإِنَّهُ لَقَسَمٌ لَّوْ تَعْلَمُونَ عَظِيمٌ",
+        "transliteration": "Ahuuzu biallahi minash shayţānir rajiimi. Falaa uqsimu bi mawaa qihine nujuumi, wa innahu laqasamune law tahlamuuna haziimune.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "13",
+        "arabic": "أعوذ بالله من الشيطان الرجيم فَأَتِيَهُمُ اللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا",
+        "transliteration": "Ahuuzu biallahi minash shayţānir rajiimi. Fa aatāhumul laahu min haysou lam yahtasibuu",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "14",
+        "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِأَصْحَابِ الْفِيلِ أَلَمْ يَجْعَلْ كَيْدَهُمْ فِي تَضْلِيلٍ وَأَرْسَلَ عَلَيْهِمْ طَيْراً اَبَابِيلَ تَرْمِيهِم بِحِجَارَةٍ مِّن سِجِّيلٍ فَجَعَلَهُمْ كَعَصْفٍ مَّا كُولٍ",
+        "transliteration": "Bismil laahi-r rahmaani-r rahiimi. Alam tara kayfa fahala rabbuka bi ashaabil fiili, alam yajhal kaydahum fii tadliiline, wa arsala halayhim tayrane abaabiila, tarmiihim bihijaaratine min sijiiline, fajaha lahum ka hasfine maa'kuuline.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "15",
+        "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ قُلْ يَأَيُّهَا الْكَافِرُونَ لَا أَعْبُدُ مَا تَعْبُدُونَ وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ وَلَا أَنَا عَابِدٌ مَّا عَبَدتُّمْ وَلَا أَنتُمْ عَابِدُونَ مَا أَعْبُدُ لَكُمْ دِينَكُمْ وَلِيَ دِينِ",
+        "transliteration": "Bismil laahi-r rahmaani-r rahiimi. Qul yaa ayyuhal kaafiruuna, laa ahbudu maa tahbuduuna, walaa antum haabiduuna maa ahbudu, walaa anaa haabidune maa habad'tum, walaa laa antum haabiduna maa ahbudu, lakum diinukum wa liya diini.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "16",
+        "arabic": "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَمُ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلهِ رَبِّ الْعَالَمِينَ",
+        "transliteration": "Subhaana rabbika, rabbil hizzati, hammaa yasifuuna, wa salaamun halal mursaliina, wal hamdu lil'laahi rabbil haalamiina.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "17",
+        "arabic": "اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَهَبْ لِمَنْ أَوْصَلَ هَذَا الْوِرْدَ الْمُبَارَكَ إِلَى الْمُسْلِمِينَ وَالْمُسْلِمَاتِ مِنْكَ بِوَاسِطَةِ رَسُولِكَ عَلَيْهِ وَآلِهِ وَصَحْبِهِ الصَّلَاةُ وَالسَّلَامُ مَا اخْتَرْتَ لَهُ فِي الدُّنْيَا وَالْآخِرَةِ بِلَا آفَةٍ وَلَا كَدَرٍ بَيْنَهُ وَبَيْنَ أَحَدٍ فِي شَيْءٍ مَا أَبَدًا آمِينَ يَا رَبَّ الْعَالَمِينَ.",
+        "transliteration": "Allāhumma ṣalli wa-sallim wa-bārik 'alā sayyidinā wa-mawlanā Muḥammadin wa-ālihi wa-ṣaḥbihi, wa-hab li-man awṣala hādhā l-wirda l-mubāraka ilā l-muslimīna wa-l-muslimāti minka bi-wāsiṭati rasūlika 'alayhi wa-ālihi wa-ṣaḥbihi ṣ-ṣalātu wa-s-salāmu mā ddakharta lahu fī d-dunyā wa-l-ākhirati bi-lā āfatin wa-lā kadarin baynahu wa-bayna aḥadin fī shay'in mā abadan. Āmīn yā Rabba l-'ālamīn.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      }
+    ]
+  },
+  "al-kaamil": {
+    "name": "Al Kaamil",
+    "nameArabic": "الكامل",
+    "items": [
+      {
+        "id": "1",
+        "arabic": "اللَّهُمَّ بِحَقِّ وَجْهِ اللَّهِ تَعَالَي الكَرِيمِ هَبْ لِكُلِّ مَنْ عَمِلَ بِهَذَا الوِرْدِ مَا يَغْبِطُهُ بِهِ غَيْرُهُ فِي الدُّنْيَا وَالْآخِرَةِ، وَصَلِّ وَسَلَّمْ وَبَارِكْ عَلَى سَيِّدِنَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَتَقَبَّلْ هَذَا الْوِرْدَ مِنْ مُخْرِجِهِ بِقَدْرِ عَظَمَةِ ذَاتِكَ آمِينْ يَا رَبَّ الْعَالَمِينَ",
+        "transliteration": "Allaa humma bi haqi wajhil laahi tahanlal kariim heub li kulli man hamila bi haazal wirdi maa yaghbituhu bihi ghayruhu fii dunyaa wal aahirati, wa salli wa sallim wa baarik hanlaa sayyidinaa Muhammadin wa aalihi wa sahbihi wa taqabbal heuzal wird min muhrijihi biqadri hazamati zaatika aamiin yaa rabbal hanlamiin",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "2",
+        "arabic": "أعُوذُ بِاللهِ مِنَ الشَّيْطَانِ الرَّجِيمِ وَإِنِّي أُعِيدُهَا بِكَ وَذُرِّيَّتَهَا مِنَ الشَّيْطَانِ الرَّجِيمِ رَبِّ أَعُوذُ بِكَ مِنْ هَمَزَاتِ الشَّيَاطِينِ وَأَعُوذُ بِكَ رَبَّ أَنْ يَحْضُرُونِ",
+        "transliteration": "Ahuuzu bil-laahi minash shayţaanir-rajīmi Wa Inniya uhiizuhaa bika wa zur-riy-yatahaa minash shayţaani-r rajīmi Rabbi ahuuzu bika min heumazaatish shayaatiini, wa ahuuzu bika rabbi an yahduruun.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "3",
+        "arabic": "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+        "transliteration": "Ahuuzu bikalimaatil laahit-taam-maati min sharri maa qalaqa",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "3"
+      },
+      {
+        "id": "4",
+        "arabic": "بِسْمِ اللهِ الرَّحْمَنِ الرَّحِيمِ",
+        "transliteration": "Bismil laahir-rahmaani-r rahîmi",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "5",
+        "arabic": "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
+        "transliteration": "Bismil_laahil lazii laa yadurru mahas-mihi shay'un fil-ardi walaa fis-samaa-i wa huwas-samii hul haliimu.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "3"
+      },
+      {
+        "id": "6",
+        "arabic": "بِسْمِ اللهِ مَا شَاءَ اللهُ لا يَسُوقُ الْخَيْرَ إِلَّا اللهُ بِسْمِ اللَّهِ مَا شَاءَ اللهُ لَا يَصْرِفُ السُّوءَ إِلَّا اللَّهُ، بِسْمِ اللَّهِ مَا شَاءَ اللَّهُ وَمَا بِكُمْ مِنْ نِعْمَةٍ فَمِنَ اللهِ، بِسْمِ اللهِ مَا شَاءَ اللهُ لَا قُوَّةَ إِلَّا بِاللهِ",
+        "transliteration": "Bismil_laahi maachaa allaahu laa yasuuqul khayra illal_laahu Bismil_laahi maachaa-allaahu laa yasrifus_suu-a illal-laahu Bismil-laahi maachaa allaahu wamaa bikum mine nihmatine faminal_laahi Bismil_laahi maachaa allaahu laa khuw-wata illaa bil_laahi.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "3"
+      },
+      {
+        "id": "7",
+        "arabic": "بِسْمِ اللَّهِ ذِي الشَّأْنِ عَظِيمِ الْبُرْهَانِ شَدِيدِ السُّلْطَانِ، مَا شَاءَ اللهُ كَانَ، أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ",
+        "transliteration": "Bismil_laahi ziis chaa-ni hanziimil burhaani chadiidis-sultaani maachaa allaahu kaana ahuuzu bil-laahi minach-chaytaani.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "3"
+      },
+      {
+        "id": "8",
+        "arabic": "آمَنْتُ بِاللَّهِ وَحْدَهُ وَكَفَرْتُ بِالْجِبْتِ وَالطَّاغُوتِ وَاسْتَمْسَكْتُ بِالْعُرْوَةِ الْوُثْقَى لَا انْفِصَامَ لَهَا وَاللَّهُ سَمِيعٌ عَلِيمٌ",
+        "transliteration": "aamantu bil laahi wahdahu wa kafartu bil jibti wa taaghuuti wastam saktu bil 'hurwatil wusqâ lan fisaama laheu wallaahu samiihun hanliimun.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "3"
+      },
+      {
+        "id": "9",
+        "arabic": "وَإِلَهُكُمْ إِلَهٌ وَاحِدٌ لَا إِلَهَ إِلَّا هُوَ الرَّحْمَنُ الرَّحِيمُ",
+        "transliteration": "wa ilaahukum ilaahun waahidun laa-ilaaha illaa huwa ar-rahmaanur-rahiimu",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "3"
+      },
+      {
+        "id": "10",
+        "arabic": "اللهُ لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
+        "transliteration": "Allaahu laa ilaaha illaa huwal hayyul qayyuumu",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "3"
+      },
+      {
+        "id": "11",
+        "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ الرَّحْمَنِ الرَّحِيمِ مَلِكِ يَوْمِ الدِّينِ إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ",
+        "transliteration": "Bismil-laahir-rahmaanir- rahiimi alhamdu lillaahi rabbil hanlamiin ar- rahmaanir-rahiimi maliki yawmi diin iyaaka nahbudu wa iyaaka nastihin-nu ihdinaa siraatal mustaqiim siraatal laziina anhamta hanleyhim ghayril maghduubi hanleyhim walad-daaliin.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "20"
+      },
+      {
+        "id": "12",
+        "arabic": "اللَّهُ لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ لاَ تَاخُذُهُ سِنَةٌ وَلَا نَوْمٌ لَّهُ مَا فِي السَّمَوَاتِ وَمَا فِي الْأَرْضِ مَنْ ذَا الَّذِي يَشْفَعُ عِنْدَهُ إِلَّا بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ وَلَا يَئُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+        "transliteration": "Allaahu laa ilaaha illaa huwal hayyul qayyuumu laa taahuzuhu sinatun walaa nawmun lahu maa fis-samaawaati wamaa fil-ardi man zallazii yach-fahu hindahu illaa bi-iznihi yahlamu maa bayna aydiihim wamaa khalfahum walaa yuhiituuna bi chay-in min hilmihi illaa bimaa châ-a wasiha kursiyuhus-samawaati wal arda walaa ya-û duhu hifzuhumaa wa huwal haliyyul haziim.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "13",
+        "arabic": "شَهِدَ اللَّهُ أَنَّهُ لَا إِلَهَ إِلَّا هُوَ وَالْمَلَائِكَةُ وَأُولُو الْعِلْمِ قَائِمًا بِالْقِسْطِ لَا إِلَهَ إِلَّا هُوَ الْعَزِيزُ الْحَكِيمُ إِنَّ الدِّينَ عِنْدَ اللَّهِ الْإِسْلَامُ",
+        "transliteration": "chahidal laahu annahu laa ilaaha illaa huwa wal malaa-ikatu wa uulul hinlmi qaa-iman bil qisti laa ilaaha illaa huwa al hanzizul hakiim inna diina hindal laahi al islaam.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "14",
+        "arabic": "قُلِ اللَّهُمَّ مَالِكَ الْمُلْكِ تُوتِي الْمُلْكَ مَنْ تَشَاءُ وَتَنْزِعُ الْمُلْكَ مِمَّنْ تَشَاءُ وَتُعِزُّ مَنْ تَشَاءُ وَتُذِلُّ مَنْ تَشَاءُ بِيَدِكَ الْخَيْرُ إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ تُولِجُ اللَّيْلَ فِي النَّهَارِ وَتُولِجُ النَّهَارَ فِي اللَّيْلِ وَتُخْرِجُ الْحَيَّ مِنَ الْمَيِّتِ وَتُخْرِجُ الْمَيِّتَ مِنَ الْحَيِّ وَتَرْزُقُ مَنْ تَشَاءُ بِغَيْرِ حِسَابٍ",
+        "transliteration": "qulil laahumma maalikal mulki tuutil mulka man tachaa-u wa tanzihul mulka mimman tachaa-u wa tuhinzzu man tachaa-u wa tudhillu man tachaa-u bi yadikal hayru innaka hanlaa kulli chay-in qadiirun tuulijul layla fii naheuri wa tuulijul naheura fii layli wa tukhrijul hayya minal mayyiti wa tuhrijul mayyita minal hayyi wa tarzuqu man tachaa-u bi ghayri hisaabin.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "15",
+        "arabic": "إِنَّ وَلِيِّيَ اللَّهُ الَّذِي نَزَّلَ الْكِتَابَ وَهُوَ يَتَوَلَّى الصَّالِحِينَ",
+        "transliteration": "Inna waliyyiyal_laahul_lazii nazzalal kitaaba wa huwa yatawallas-saalihiina.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "16",
+        "arabic": "لَقَدْ جَاءَكُمْ رَسُولٌ مِنَ انْفُسِكُمْ عَزِيزٌ عَلَيْهِ مَا عَنِتُمْ حَرِيصٌ عَلَيْكُمْ بِالْمُؤْمِنِينَ رَؤُفٌ رَّحِيمٌ فَإِن تَوَلَّوْا فَقُلْ حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ",
+        "transliteration": "Lakhad jaa'akum rasuulun min anfusikum haziizun halayhi maa hanittum hariisune halaykum bil-muuminiina ra'uufun rahiimun, fa'in tawallaw faqul hasbiyal laahu laa ilaaha illaa huwa halayhi tawakkaltu wa huwa rabbul harshil haziimi.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "17",
+        "arabic": "وَأَفَوَضُ أَمْرِيَ إِلَى اللَّهِ إِنَّ اللَّهَ بَصِيرٌ بِالْعِبَادِ",
+        "transliteration": "Wa Ufawwidu amriya ilal laahi, innal laaha basirun bil-hibaadi",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "18",
+        "arabic": "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+        "transliteration": "Hasbunal laahu wa nihmal wakiilu",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "200"
+      },
+      {
+        "id": "19",
+        "arabic": "حَسْبِيَ اللَّهُ لَا إِلَهَ إِلَّا هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ",
+        "transliteration": "hasbiyal_laahu laa ilaaha illaa huwa halayhi tawakkaltu wa huwa rabbul harchil haziim",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "7"
+      },
+      {
+        "id": "20",
+        "arabic": "أَسْتَغْفِرُ اللهَ الْعَظِيمَ الذِي لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ",
+        "transliteration": "astakh firul_laahal haziimal_lazii laa ilaaha illâ huwal hayyal qayyuma",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "70"
+      },
+      {
+        "id": "21",
+        "arabic": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ النَّبِيِّ الْأُمِّيِّ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلَّمْ تَسْلِيمًا",
+        "transliteration": "Allaa humma salli halaa sayidinaa muhammadin nabiyyil ummiyyi wa [hanlaa] aalihi wa sahbihi wa sallim tasliiman",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "100"
+      },
+      {
+        "id": "22",
+        "arabic": "لَا إِلَهَ إِلَّا اللَّهُ سَيِّدُنَا مُحَمَّدٌ رَسُولُ اللهِ عَلَيْهِ بِآلِهِ وَصَحْبِهِ صَلَاةُ اللهِ تَبَارَكَ وَتَعَالَى وَسَلَامُ اللهِ",
+        "transliteration": "laa ilaaha illal-laahu Sayyidunaa muhammadun rassuulul laahi halayhi bi-aalihii wa sahbihii salaatul-laahi tabaaraka wa tahalaa wa salaamul-laahi",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "50"
+      },
+      {
+        "id": "23",
+        "arabic": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ وَهُوَ حَيٌّ لا يَمُوتُ بِيَدِهِ الْخَيْرُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+        "transliteration": "laa ilaaha illal laahu wahdahu laa chariika lahu lahul mulku wa lahul hamdu yuhyii wa yumiitu wa huwa hayyun laa yamuutu bi yadihil khayru wa huwa halaa kulli chay ine qadiirun.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "10"
+      },
+      {
+        "id": "24",
+        "arabic": "اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ الْفَاتِحِ لِمَا أُغْلِقَ وَالْخَاتِمِ لِمَا سَبَقَ نَاصِرِ الْحَقِّ بِالْحَقِّ وَالْهَادِي إِلَى صِرَاطِكَ الْمُسْتَقِيمِ وَعَلَى آلِهِ حَقَّ قَدْرِهِ وَمِقْدَارِهِ الْعَظِيمِ",
+        "transliteration": "Allaa humma salli wa sallim wa baarik halaa sayyidina wa mawlaanaa muhammadin wa hanlaa aalihi wa sahbihi salaatan wa salaaman wa barakatane tahabu lii bihaa sahandatan laa chaqaawata banhdahaa wa akbara ridan min ka laa sukhta banhdahu abadan",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "100"
+      },
+      {
+        "id": "25",
+        "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ مِنْ شَرِّ مَا خَلَقَ وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+        "transliteration": "Bismil-laahir-rahmaanir-rahiimi, Qul ahonzu birabbil falaqi min charri maa khalaqa wa min charri ghaasiqin izaa waqaba, wa min charri innaf-faasaati filhuqadi wa min charri haasidin izaa hasada.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "26",
+        "arabic": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ قُلْ أَعُوذُ بِرَبِّ النَّاسِ مَلِكِ النَّاسِ إِلَهِ النَّاسِ مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ مِنَ الْجِنَّةِ وَالنَّاسِ",
+        "transliteration": "Bismil-laahir-rahmaanir-rahiimi, Qul ahonzu birabbin nas malikin-nas ilaahin-nas min charril waswaasil khannas eullazi yuwaswisu fii suduurin-nas minal jinnati wannas",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "27",
+        "arabic": "اللَّهُمَّ يَا أَحَدُ يَا لَطِيفُ يَا بَاقِي يَا لَطِيفُ يَا أَحَدُ يَا دَائِمُ صَلِّ وَسَلَّمْ وَبَارِكْ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ",
+        "transliteration": "Allaa humma yaa ahadu, yaa latiifu, yaa baaqii, yaa ahadu, yaa daa-imu salli wa sallim wa baarik hanlaa sayyidinaa wa mawlaanaa muhammadin wa hanlaa aalihi wa sahbihi",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "28",
+        "arabic": "سُبْحَانَ رَبِّكَ رَبِّ الْعِزَّةِ عَمَّا يَصِفُونَ وَسَلَامٌ عَلَى الْمُرْسَلِينَ وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+        "transliteration": "Subhaana Rabbika rabbil hizzati hammaa yasifuuna wa salaamun hanlal mursaliina wal hamdu lillaahi Rabbil halamiina.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "29",
+        "arabic": "اللَّهُمَّ صَلِّ وَسَلَّمْ وَبَارِكْ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَهَبْ لِمَنْ أَوْصَلَ هَذَا الْوِرْدَ الْمُبَارَكَ إِلَى الْمُسْلِمِينَ وَالْمُسْلِمَاتِ مِنْكَ بِوَاسِطَةِ رَسُولِكَ عَلَيْهِ بِآلِهِ وَصَحْبِهِ الصَّلَاةُ وَالسَّلامُ مَا اخْتَرْتَ لَهُ فِي الدُّنْيَا وَالْآخِرَةِ بِلَا آفَةٍ وَلَا كَدَرٍ بَيْنَهُ وَبَيْنَ أَحَدٍ فِي شَيْءٍ مَا أَبَدًا آمِينٌ يَا رَبَّ الْعَالَمِينَ",
+        "transliteration": "Allaa humma salli wa sallim wa baarik halaa sayidina wa mawlaanaa muhammadin wa halaa aalihi wa sahbihi wa hab liman awsala haazal wirda al mubaaraka ilaal muslimiina wal muslimaati minka bi waasitati rasuulika hanlayhi bi aalihi wa sahbihi salaatu wa salaamu mahtarta lahu fiid-dunyaa wal aahirati bilaa aafatin walaa kadarin baynahu wa bayna ahadin fii chay-in maa abadan aamiin yaa rabbal hanlamiina",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      },
+      {
+        "id": "30",
+        "arabic": "اللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكْ عَلَى سَيِّدِنَا وَمَوْلَانَا مُحَمَّدٍ وَآلِهِ وَصَحْبِهِ وَهَبْ لِمَنْ أَوْصَلَ هَذَا الْوِرْدَ الْمُبَارَكَ إِلَى الْمُسْلِمِينَ وَالْمُسْلِمَاتِ مِنْكَ بِوَاسِطَةِ رَسُولِكَ عَلَيْهِ وَآلِهِ وَصَحْبِهِ الصَّلَاةُ وَالسَّلَامُ مَا اخْتَرْتَ لَهُ فِي الدُّنْيَا وَالْآخِرَةِ بِلَا آفَةٍ وَلَا كَدَرٍ بَيْنَهُ وَبَيْنَ أَحَدٍ فِي شَيْءٍ مَا أَبَدًا آمِينَ يَا رَبَّ الْعَالَمِينَ.",
+        "transliteration": "Allāhumma ṣalli wa-sallim wa-bārik 'alā sayyidinā wa-mawlanā Muḥammadin wa-ālihi wa-ṣaḥbihi, wa-hab li-man awṣala hādhā l-wirda l-mubāraka ilā l-muslimīna wa-l-muslimāti minka bi-wāsiṭati rasūlika 'alayhi wa-ālihi wa-ṣaḥbihi ṣ-ṣalātu wa-s-salāmu mā ddakharta lahu fī d-dunyā wa-l-ākhirati bi-lā āfatin wa-lā kadarin baynahu wa-bayna aḥadin fī shay'in mā abadan. Āmīn yā Rabba l-'ālamīn.",
+        "translation": "",
+        "audioUrl": null,
+        "repeat": "1"
+      }
+    ]
+  }
+}
