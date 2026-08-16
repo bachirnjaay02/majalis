@@ -43,9 +43,9 @@ export default function AdminShell({
           ))}
         </nav>
 
-        <div className="mt-8 hidden md:block">
-          <p className="truncate text-xs text-[#241d14]/45 dark:text-[#f3e9d2]/45">{adminName}</p>
-          <form action={logoutXamXamAdmin} className="mt-2">
+        <div className="mt-4 flex items-center justify-between gap-3 md:mt-8 md:block">
+          <p className="min-w-0 truncate text-xs text-[#241d14]/45 dark:text-[#f3e9d2]/45">{adminName}</p>
+          <form action={logoutXamXamAdmin} className="shrink-0 md:mt-2">
             <button className="text-xs font-medium text-[#8a6420] dark:text-[#f3d27a] hover:text-[#8a6420] dark:hover:text-[#f3d27a]">
               Déconnexion
             </button>

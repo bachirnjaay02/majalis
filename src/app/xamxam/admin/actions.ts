@@ -7,6 +7,7 @@ import bcrypt from "bcryptjs";
 import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { requireXamXamAdmin } from "@/lib/xamxam/auth";
+import { normalizeDriveUrl } from "@/lib/xamxam/labels";
 import {
   XAMXAM_SESSION_COOKIE,
   XAMXAM_SESSION_MAX_AGE,
@@ -68,8 +69,8 @@ const bookSchema = z.object({
   language: z.enum(["WOLOF", "FRANCAIS", "ARABE"]),
   category: z.string().optional(),
   description: z.string().optional(),
-  coverUrl: z.union([z.string().url(), z.literal("")]).optional(),
-  pdfUrl: z.string().url("Lien PDF invalide"),
+  coverUrl: z.union([z.string().url().transform(normalizeDriveUrl), z.literal("")]).optional(),
+  pdfUrl: z.string().url("Lien PDF invalide").transform(normalizeDriveUrl),
 });
 
 function readBookForm(formData: FormData) {
@@ -130,7 +131,7 @@ export async function deleteBook(id: string) {
 const playlistSchema = z.object({
   title: z.string().min(1, "Le titre est requis"),
   description: z.string().optional(),
-  coverUrl: z.union([z.string().url(), z.literal("")]).optional(),
+  coverUrl: z.union([z.string().url().transform(normalizeDriveUrl), z.literal("")]).optional(),
 });
 
 export async function createPlaylist(formData: FormData) {
@@ -175,7 +176,7 @@ export async function deletePlaylist(id: string) {
 const trackSchema = z.object({
   title: z.string().min(1, "Le titre est requis"),
   reciter: z.string().optional(),
-  audioUrl: z.string().url("Lien audio invalide"),
+  audioUrl: z.string().url("Lien audio invalide").transform(normalizeDriveUrl),
   duration: z.string().optional(),
   order: z.coerce.number().int().default(0),
 });
@@ -208,8 +209,8 @@ export async function deleteTrack(playlistId: string, trackId: string) {
 const videoSchema = z.object({
   title: z.string().min(1, "Le titre est requis"),
   description: z.string().optional(),
-  videoUrl: z.string().url("Lien vidéo invalide"),
-  thumbnailUrl: z.union([z.string().url(), z.literal("")]).optional(),
+  videoUrl: z.string().url("Lien vidéo invalide").transform(normalizeDriveUrl),
+  thumbnailUrl: z.union([z.string().url().transform(normalizeDriveUrl), z.literal("")]).optional(),
   category: z.string().optional(),
 });
 
@@ -263,7 +264,7 @@ const wirdSchema = z.object({
   moment: z.string().optional(),
   language: z.enum(["WOLOF", "FRANCAIS", "ARABE"]),
   content: z.string().min(1, "Le texte est requis"),
-  audioUrl: z.union([z.string().url(), z.literal("")]).optional(),
+  audioUrl: z.union([z.string().url().transform(normalizeDriveUrl), z.literal("")]).optional(),
 });
 
 function readWirdForm(formData: FormData) {

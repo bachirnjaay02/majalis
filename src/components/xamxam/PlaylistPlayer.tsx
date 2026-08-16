@@ -24,6 +24,7 @@ export default function PlaylistPlayer({ tracks }: { tracks: Track[] }) {
   const [playing, setPlaying] = useState(false);
   const [progress, setProgress] = useState(0);
   const [duration, setDuration] = useState(0);
+  const [error, setError] = useState(false);
 
   const track = tracks[index];
 
@@ -39,6 +40,7 @@ export default function PlaylistPlayer({ tracks }: { tracks: Track[] }) {
     setIndex(i);
     setProgress(0);
     setDuration(0);
+    setError(false);
     setPlaying(autoplay);
   }
 
@@ -48,8 +50,14 @@ export default function PlaylistPlayer({ tracks }: { tracks: Track[] }) {
       audioRef.current.pause();
       setPlaying(false);
     } else {
-      audioRef.current.play().catch(() => {});
-      setPlaying(true);
+      setError(false);
+      audioRef.current.play().then(
+        () => setPlaying(true),
+        () => {
+          setPlaying(false);
+          setError(true);
+        }
+      );
     }
   }
 
@@ -73,6 +81,10 @@ export default function PlaylistPlayer({ tracks }: { tracks: Track[] }) {
         onTimeUpdate={(e) => setProgress(e.currentTarget.currentTime)}
         onLoadedMetadata={(e) => setDuration(e.currentTarget.duration)}
         onEnded={next}
+        onError={() => {
+          setPlaying(false);
+          setError(true);
+        }}
         autoPlay={playing}
       />
 
@@ -83,6 +95,11 @@ export default function PlaylistPlayer({ tracks }: { tracks: Track[] }) {
           </p>
           {track.reciter && (
             <p className="text-xs text-[#241d14]/50 dark:text-[#f3e9d2]/50">{track.reciter}</p>
+          )}
+          {error && (
+            <p className="mt-1 text-xs text-red-600 dark:text-red-400">
+              Impossible de lire cette piste — vérifiez le lien audio.
+            </p>
           )}
         </div>
 

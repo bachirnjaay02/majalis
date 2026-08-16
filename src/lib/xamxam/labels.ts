@@ -25,6 +25,16 @@ export function isRtl(language: XamXamLanguage) {
   return language === "ARABE";
 }
 
+// Google Drive "share" links (…/file/d/ID/view or …/open?id=ID) return an
+// HTML preview page, not the raw file, so <audio>/<img>/<a href=pdf> can't
+// load them directly. Rewrite to the direct-content URL format instead.
+export function normalizeDriveUrl(url: string): string {
+  const fileMatch = url.match(/drive\.google\.com\/file\/d\/([a-zA-Z0-9_-]+)/);
+  const openMatch = url.match(/drive\.google\.com\/open\?id=([a-zA-Z0-9_-]+)/);
+  const id = fileMatch?.[1] ?? openMatch?.[1];
+  return id ? `https://drive.google.com/uc?export=download&id=${id}` : url;
+}
+
 export function extractYoutubeId(url: string): string | null {
   try {
     const u = new URL(url);
