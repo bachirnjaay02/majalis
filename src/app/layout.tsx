@@ -15,7 +15,7 @@ export default function RootLayout({
     <html lang="fr" suppressHydrationWarning>
       <body>
         <Script id="majalis-theme-init" strategy="beforeInteractive">
-          {"(function(){try{if(localStorage.getItem('majalis-theme')==='dark'){document.documentElement.classList.add('dark')}}catch(e){}})()"}
+          {"(function(){try{if(localStorage.getItem('majalis-theme')!=='light'){document.documentElement.classList.add('dark')}}catch(e){document.documentElement.classList.add('dark')}})()"}
         </Script>
         {children}
       </body>

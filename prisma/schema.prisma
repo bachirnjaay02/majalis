@@ -31,10 +31,17 @@ model XamXamAdmin {
 model XamXamBook {
   id          String         @id @default(cuid())
   title       String
+  arabicTitle String?
   author      String         @default("Serigne Touba Cheikh Ahmadou Bamba")
   language    XamXamLanguage
   category    String?
   description String?
+  type        String?        // Qacida, Traité, Madiih…
+  vers        Int?           // nombre de vers
+  metre       String?        // mètre poétique (arood)
+  annee       String?        // année de composition (hégirienne / grégorienne)
+  tags        String[]       @default([])
+  files       String[]       @default([]) // "Nom du fichier|https://…"
   coverUrl    String?
   pdfUrl      String
   featured    Boolean        @default(false)

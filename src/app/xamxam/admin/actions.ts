@@ -63,12 +63,72 @@ export async function logoutXamXamAdmin() {
 // Livres
 // ---------------------------------------------------------------------------
 
+const optionalText = z
+  .string()
+  .trim()
+  .optional()
+  .transform((value) => value || undefined);
+
+const optionalCount = z.preprocess(
+  (value) => (value === "" || value === null ? undefined : value),
+  z.coerce.number().int().positive().optional()
+);
+
+/** « Nom|https://… » sur chaque ligne ; le nom est déduit de l'URL si absent. */
+function parseBookFiles(value: FormDataEntryValue | null): string[] {
+  return String(value ?? "")
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line) => {
+      const [first, ...rest] = line.split("|");
+      const hasLabel = rest.length > 0;
+      const label = hasLabel ? first.trim() : "";
+      const rawUrl = (hasLabel ? rest.join("|") : first).trim();
+      if (!rawUrl) return null;
+      let url: string;
+      try {
+        url = normalizeDriveUrl(new URL(rawUrl).toString());
+      } catch {
+        return null;
+      }
+      if (!label) {
+        const filename = url.split("/").pop()?.split("?")[0];
+        const fallback =
+          filename && filename.includes(".")
+            ? decodeURIComponent(filename)
+            : "Document PDF";
+        return `${fallback}|${url}`;
+      }
+      return `${label}|${url}`;
+    })
+    .filter((entry): entry is string => entry !== null);
+}
+
+function parseTags(value: FormDataEntryValue | null): string[] {
+  return Array.from(
+    new Set(
+      String(value ?? "")
+        .split(/[\n,]+/)
+        .map((tag) => tag.trim().replace(/^#/, ""))
+        .filter(Boolean)
+    )
+  );
+}
+
 const bookSchema = z.object({
   title: z.string().min(1, "Le titre est requis"),
+  arabicTitle: optionalText,
   author: z.string().min(1, "L'auteur est requis"),
   language: z.enum(["WOLOF", "FRANCAIS", "ARABE"]),
-  category: z.string().optional(),
-  description: z.string().optional(),
+  category: optionalText,
+  description: optionalText,
+  type: optionalText,
+  vers: optionalCount,
+  metre: optionalText,
+  annee: optionalText,
+  tags: z.array(z.string()),
+  files: z.array(z.string()),
   coverUrl: z.union([z.string().url().transform(normalizeDriveUrl), z.literal("")]).optional(),
   pdfUrl: z.string().url("Lien PDF invalide").transform(normalizeDriveUrl),
 });
@@ -76,10 +136,17 @@ const bookSchema = z.object({
 function readBookForm(formData: FormData) {
   return bookSchema.parse({
     title: formData.get("title"),
+    arabicTitle: formData.get("arabicTitle") || undefined,
     author: formData.get("author") || "Serigne Touba Cheikh Ahmadou Bamba",
     language: formData.get("language"),
     category: formData.get("category") || undefined,
     description: formData.get("description") || undefined,
+    type: formData.get("type") || undefined,
+    vers: formData.get("vers") || undefined,
+    metre: formData.get("metre") || undefined,
+    annee: formData.get("annee") || undefined,
+    tags: parseTags(formData.get("tags")),
+    files: parseBookFiles(formData.get("files")),
     coverUrl: formData.get("coverUrl") || "",
     pdfUrl: formData.get("pdfUrl"),
   });

@@ -1,23 +1,39 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
+
+const THEME_EVENT = "majalis-theme-change";
+
+function subscribe(callback: () => void) {
+  window.addEventListener(THEME_EVENT, callback);
+  window.addEventListener("storage", callback);
+  return () => {
+    window.removeEventListener(THEME_EVENT, callback);
+    window.removeEventListener("storage", callback);
+  };
+}
+
+function getSnapshot() {
+  return document.documentElement.classList.contains("dark");
+}
+
+/** Le thème sombre est le rendu par défaut côté serveur. */
+function getServerSnapshot() {
+  return true;
+}
 
 export default function ThemeToggle({ className = "" }: { className?: string }) {
-  const [isDark, setIsDark] = useState(false);
-
-  useEffect(() => {
-    setIsDark(document.documentElement.classList.contains("dark"));
-  }, []);
+  const isDark = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 
   function toggle() {
     const next = !isDark;
-    setIsDark(next);
     document.documentElement.classList.toggle("dark", next);
     try {
       localStorage.setItem("majalis-theme", next ? "dark" : "light");
     } catch {
       // localStorage unavailable (private browsing, etc.) — theme just won't persist.
     }
+    window.dispatchEvent(new Event(THEME_EVENT));
   }
 
   return (
@@ -26,7 +42,7 @@ export default function ThemeToggle({ className = "" }: { className?: string }) 
       onClick={toggle}
       aria-label={isDark ? "Passer en mode clair" : "Passer en mode sombre"}
       title={isDark ? "Mode clair" : "Mode sombre"}
-      className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-[#f3d27a]/20 text-[#241d14] transition-colors hover:border-[#f3d27a]/50 dark:text-[#f3e9d2] ${className}`}
+      className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-[#8a6420]/25 text-[#241d14] transition-colors hover:border-[#8a6420]/60 dark:border-[#e8c87a]/20 dark:text-[#f4ecd8] dark:hover:border-[#e8c87a]/50 ${className}`}
     >
       {isDark ? (
         <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">

@@ -1,0 +1,147 @@
+import type { KhassaideBook } from "./types";
+
+/**
+ * Données de démonstration utilisées quand la base de données est
+ * injoignable en développement (le `.env` local ne pointe pas encore vers
+ * une vraie instance Neon). En production, ce sont les données Prisma qui
+ * sont affichées.
+ */
+export const demoBooks: KhassaideBook[] = [
+  {
+    id: "demo-jaalibatul-maraaxib",
+    title: "Jaalibatul Maraaxib",
+    arabicTitle: "جاذبة المراكب",
+    author: "Serigne Touba Cheikh Ahmadou Bamba",
+    language: "ARABE",
+    category: "Poésie",
+    description:
+      "Qacida célèbre où Cheikh Ahmadou Bamba invite les cœurs à s'attacher au Prophète (PSL) et à la voie des pieux. Un texte phare du patrimoine mouride, récité lors des grands rassemblements.",
+    type: "Qacida",
+    vers: 143,
+    metre: "Khafîf",
+    annee: "1327 H",
+    tags: ["Qacida", "Madiih", "Prophète", "Voyage"],
+    files: [
+      { label: "Jaalibatul Maraaxib — texte arabe", url: "https://example.com/xamxam/jaalibatul-ar.pdf" },
+      { label: "Jaalibatul Maraaxib — wolof", url: "https://example.com/xamxam/jaalibatul-wo.pdf" },
+      { label: "Jaalibatul Maraaxib — français", url: "https://example.com/xamxam/jaalibatul-fr.pdf" },
+      { label: "Transcription latine", url: "https://example.com/xamxam/jaalibatul-latin.pdf" },
+      { label: "Calligraphie", url: "https://example.com/xamxam/jaalibatul-calligraphie.pdf" },
+      { label: "Tafsir — partie 1", url: "https://example.com/xamxam/jaalibatul-tafsir-1.pdf" },
+      { label: "Tafsir — partie 2", url: "https://example.com/xamxam/jaalibatul-tafsir-2.pdf" },
+      { label: "Livret de mémorisation", url: "https://example.com/xamxam/jaalibatul-memorisation.pdf" },
+      { label: "Programme de récitation", url: "https://example.com/xamxam/jaalibatul-programme.pdf" },
+      { label: "Version imprimable", url: "https://example.com/xamxam/jaalibatul-print.pdf" },
+    ].map((file) => `${file.label}|${file.url}`),
+    coverUrl: null,
+    pdfUrl: "https://example.com/xamxam/jaalibatul-ar.pdf",
+    featured: true,
+  },
+  {
+    id: "demo-matlabul-fawzeyni",
+    title: "Matlabul Fawzeyni",
+    arabicTitle: "مطلب الفوزين",
+    author: "Serigne Touba Cheikh Ahmadou Bamba",
+    language: "ARABE",
+    category: "Soufisme",
+    description:
+      "Traité sur les moyens d'obtenir la réussite ici-bas et dans l'au-delà : foi, science, adoration et bon comportement.",
+    type: "Traité",
+    vers: null,
+    metre: null,
+    annee: "1318 H",
+    tags: ["Tawhid", "Soufisme", "Foi"],
+    files: [
+      { label: "Matlabul Fawzeyni — arabe", url: "https://example.com/xamxam/matlabul-ar.pdf" },
+      { label: "Matlabul Fawzeyni — français", url: "https://example.com/xamxam/matlabul-fr.pdf" },
+    ].map((file) => `${file.label}|${file.url}`),
+    coverUrl: null,
+    pdfUrl: "https://example.com/xamxam/matlabul-ar.pdf",
+    featured: true,
+  },
+  {
+    id: "demo-jazaul-chakour",
+    title: "Jazaul Chakour",
+    arabicTitle: "جزاء الشكور",
+    author: "Serigne Touba Cheikh Ahmadou Bamba",
+    language: "ARABE",
+    category: "Gratitude",
+    description:
+      "Poème de reconnaissance envers le Tout-Puissant pour les bienfaits accordés au Cheikh et à sa communauté.",
+    type: "Qacida",
+    vers: 200,
+    metre: "Rajaz",
+    annee: "1320 H",
+    tags: ["Gratitude", "Louange", "Qacida"],
+    files: [
+      { label: "Jazaul Chakour — arabe", url: "https://example.com/xamxam/jazaul-ar.pdf" },
+      { label: "Jazaul Chakour — wolof", url: "https://example.com/xamxam/jazaul-wo.pdf" },
+    ].map((file) => `${file.label}|${file.url}`),
+    coverUrl: null,
+    pdfUrl: "https://example.com/xamxam/jazaul-ar.pdf",
+    featured: true,
+  },
+  {
+    id: "demo-nahju-qadim",
+    title: "Nahju Qadim",
+    arabicTitle: "نهج القديم",
+    author: "Serigne Touba Cheikh Ahmadou Bamba",
+    language: "WOLOF",
+    category: "Traduction",
+    description:
+      "Traduction et commentaire en wolof d'un texte fondateur, pour rendre l'enseignement du Cheikh accessible au plus grand nombre.",
+    type: "Traduction",
+    vers: null,
+    metre: null,
+    annee: "2019",
+    tags: ["Wolof", "Traduction", "Enseignement"],
+    files: [
+      { label: "Nahju Qadim — wolof", url: "https://example.com/xamxam/nahju-wo.pdf" },
+    ].map((file) => `${file.label}|${file.url}`),
+    coverUrl: null,
+    pdfUrl: "https://example.com/xamxam/nahju-wo.pdf",
+    featured: false,
+  },
+  {
+    id: "demo-massalik-al-jinan",
+    title: "Massalik al-Jinan",
+    arabicTitle: "مسالك الجنان",
+    author: "Serigne Touba Cheikh Ahmadou Bamba",
+    language: "ARABE",
+    category: "Soufisme",
+    description:
+      "Les chemins du paradis : itinéraire spirituel du disciple, entre purification du cœur et attachement au Prophète (PSL).",
+    type: "Traité",
+    vers: null,
+    metre: null,
+    annee: "1319 H",
+    tags: ["Soufisme", "Spiritualité", "Cœur"],
+    files: [
+      { label: "Massalik al-Jinan — arabe", url: "https://example.com/xamxam/massalik-ar.pdf" },
+    ].map((file) => `${file.label}|${file.url}`),
+    coverUrl: null,
+    pdfUrl: "https://example.com/xamxam/massalik-ar.pdf",
+    featured: false,
+  },
+  {
+    id: "demo-yoonu-yalla",
+    title: "Yoonu Yalla",
+    arabicTitle: "سبيل الله",
+    author: "Serigne Touba Cheikh Ahmadou Bamba",
+    language: "WOLOF",
+    category: "Enseignement",
+    description:
+      "Recueil d'enseignements en wolof sur la voie de Dieu, la droiture et la vie du disciple au quotidien.",
+    type: "Recueil",
+    vers: null,
+    metre: null,
+    annee: "2021",
+    tags: ["Wolof", "Enseignement", "Vie du disciple"],
+    files: [
+      { label: "Yoonu Yalla — wolof", url: "https://example.com/xamxam/yoonu-yalla-wo.pdf" },
+    ].map((file) => `${file.label}|${file.url}`),
+    coverUrl: null,
+    pdfUrl: "https://example.com/xamxam/yoonu-yalla-wo.pdf",
+    featured: true,
+  },
+];

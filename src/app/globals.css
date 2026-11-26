@@ -1,14 +1,68 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
+@theme {
+  --color-kx-gold: #e8c87a;
+  --color-kx-gold-deep: #c9a24a;
+  --color-kx-olive: #2c2f1d;
+  --color-kx-brown: #1a150e;
+  --color-kx-cream: #f4ecd8;
+}
+
 .mj-ambient {
   background-image: radial-gradient(circle at 15% -10%, rgba(201, 151, 58, 0.28), transparent 45%),
     radial-gradient(circle at 90% 10%, rgba(201, 151, 58, 0.16), transparent 55%),
     linear-gradient(180deg, #fdfaf2 0%, #f7efdc 45%, #f0e3c4 100%);
 }
 
+/* Palette de référence : olive profond → brun sombre, accents dorés. */
 .dark .mj-ambient {
-  background-image: radial-gradient(circle at 15% -10%, rgba(201, 151, 58, 0.2), transparent 45%),
-    radial-gradient(circle at 90% 10%, rgba(23, 21, 18, 0.6), transparent 55%),
-    linear-gradient(180deg, #171512 0%, #0c0c0a 40%, #030302 100%);
+  background-image: radial-gradient(circle at 12% -8%, rgba(232, 200, 122, 0.18), transparent 46%),
+    radial-gradient(circle at 88% 6%, rgba(126, 132, 74, 0.28), transparent 55%),
+    radial-gradient(circle at 50% 110%, rgba(201, 162, 74, 0.12), transparent 60%),
+    linear-gradient(165deg, #2c2f1d 0%, #262215 40%, #1b150e 72%, #120d08 100%);
+}
+
+/* Surface translucide utilisée par les cartes, panneaux et feuilles. */
+.kx-panel {
+  border: 1px solid rgba(201, 151, 58, 0.22);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(253, 250, 242, 0.78));
+  box-shadow: 0 16px 36px -20px rgba(60, 45, 20, 0.12);
+  backdrop-filter: blur(14px);
+}
+
+.dark .kx-panel {
+  border: 1px solid rgba(232, 200, 122, 0.16);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.02));
+  box-shadow: 0 24px 60px -32px rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(14px);
+}
+
+.kx-gold-text {
+  background: linear-gradient(120deg, #8a6420, #b08225 45%, #6b4d13);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.dark .kx-gold-text {
+  background: linear-gradient(120deg, #f7e3ae, #e8c87a 45%, #c9a24a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.kx-scrollbar-none {
+  scrollbar-width: none;
+}
+
+.kx-scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+/* Ruban doré des couvertures. */
+.kx-ribbon {
+  background: linear-gradient(90deg, #f3dd9f, #e8c87a 45%, #c9a24a);
+  color: #241d14;
+  box-shadow: 0 6px 14px -6px rgba(0, 0, 0, 0.7);
 }
