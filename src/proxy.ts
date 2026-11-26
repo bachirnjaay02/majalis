@@ -4,7 +4,7 @@ import { XAMXAM_SESSION_COOKIE, verifySessionToken } from "@/lib/xamxam/session"
 
 // Guards the Majalis admin section with its own signed cookie (see
 // src/lib/xamxam/session.ts). Everything else stays public.
-export default function proxy(req: NextRequest) {
+export function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl;
   const isAdminSession = !!verifySessionToken(
     req.cookies.get(XAMXAM_SESSION_COOKIE)?.value
@@ -25,6 +25,8 @@ export default function proxy(req: NextRequest) {
 
   return NextResponse.next();
 }
+
+export default proxy;
 
 export const config = {
   matcher: [

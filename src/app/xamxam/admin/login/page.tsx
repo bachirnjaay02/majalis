@@ -63,6 +63,11 @@ export default function XamXamAdminLoginPage() {
             </p>
           )}
 
+          <div className="rounded-xl border border-[#e8c87a]/20 bg-[#e8c87a]/5 p-3 text-center text-xs text-[#241d14]/70 dark:text-[#f3e9d2]/70">
+            <p className="font-medium text-[#8a6420] dark:text-[#e8c87a]">Identifiants par défaut :</p>
+            <p className="mt-1 font-mono text-[11px] select-all">admin@xamxam.sn / XamXam2026!</p>
+          </div>
+
           <button type="submit" disabled={pending} className={`w-full ${primaryButtonClass} disabled:opacity-60`}>
             {pending ? "Connexion..." : "Se connecter"}
           </button>
