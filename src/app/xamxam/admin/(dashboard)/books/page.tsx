@@ -21,7 +21,7 @@ export default async function AdminBooksPage() {
       </h1>
       <p className="mt-1 text-sm text-[#241d14]/50 dark:text-[#f3e9d2]/50">
         Ajoutez et gérez les livres du Majalis. Les métadonnées saisies ici
-        alimentent la fiche publique du khassaïde.
+        alimentent la fiche publique du xassaïd.
       </p>
 
       <form
