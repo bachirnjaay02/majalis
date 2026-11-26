@@ -41,11 +41,11 @@ export async function loginXamXamAdmin(
     // Initialisation automatique : si la table est vide (base Neon fraîche sans seed)
     if (!admin) {
       const count = await prisma.xamXamAdmin.count();
-      if (count === 0 && (email === "admin@xamxam.sn" || email === "bachirnjaay02@gmail.com")) {
+      if (count === 0 && email === "admin@xamxam.sn") {
         admin = await prisma.xamXamAdmin.create({
           data: {
             name: "Administrateur Majalis",
-            email,
+            email: "admin@xamxam.sn",
             password: await bcrypt.hash("XamXam2026!", 10),
           },
         });
@@ -63,7 +63,7 @@ export async function loginXamXamAdmin(
 
   let valid = await bcrypt.compare(password, admin.password);
   // Auto-réparation du mot de passe par défaut si besoin
-  if (!valid && password === "XamXam2026!" && (email === "admin@xamxam.sn" || email === "bachirnjaay02@gmail.com")) {
+  if (!valid && password === "XamXam2026!" && email === "admin@xamxam.sn") {
     try {
       const newHash = await bcrypt.hash("XamXam2026!", 10);
       await prisma.xamXamAdmin.update({
